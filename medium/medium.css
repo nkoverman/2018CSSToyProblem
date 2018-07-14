@@ -1,7 +1,36 @@
-body {
-  background: purple;
+.product-grid {
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
 .product {
   border: 2px black solid;
+  float: left;
+  width: 20%;
+  margin: 1rem;
+  text-align: center;
+  clear: right;
+}
+
+.product:nth-child(5) {
+  clear: left;
+}
+
+.product-title {
+  font-size: 2vw;
+  margin: 0;
+}
+
+.product-description {
+  font-size: 1.5vw;
+  padding: 0.5vw;
+}
+
+img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.foo {
+  margin: 0 auto;
 }
