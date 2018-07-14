@@ -1,9 +1,10 @@
-.body {
+body {
   background: grey;
 }
 
 .flag {
-  margin: 0 auto;
+  height: 300px;
+  width: 500px;
 }
 
 tr:nth-child(2n+1) {
@@ -18,14 +19,12 @@ tr:nth-child(2n+2) {
   background-image: url("../sampleImages/easy.png");
   background-size: contain;
   background-repeat: no-repeat;
-  position: relative;
-  display: block;
-  height: 
 }
 
 tr {
-  width: 500px;
-  height: 23.0769px;
-  display: block;
   border: 1px solid black;
+}
+
+.short-row {
+  width: 56.3%;
 }
