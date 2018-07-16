@@ -1,0 +1,42 @@
+.pie-chart {
+  width: 50vw;
+  height: 50vw;
+  background: grey;
+  border-radius: 100%;
+  margin: auto;
+  position: fixed;
+  top: 5%;
+  left: 25%;
+}
+
+.pie-chart__red {
+  background: red;
+  border-radius: 100% 0 0 0;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.pie-chart__yellow {
+  background: yellow;
+  border-radius: 0 100% 0 0;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.pie-chart__green {
+  background: green;
+  border-radius: 0 0 100% 0;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.pie-chart__blue {
+  background: blue;
+  border-radius: 0 0 0 100%;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
