@@ -1,6 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
-  background: #777;
   margin: 0;
+  height: 100%;
 }
 
 /* //////////////////
@@ -8,11 +12,12 @@ MAIN NAVIGATION
 ////////////////// */
 
 .main-nav {
-  background: #9d9d9d;
+  background: #777;
   position: fixed;
   top: 0;
   width: 100%;
   padding: 0.5rem;
+  color: white;
 }
 
 .logo {
@@ -38,14 +43,69 @@ ASIDE
 NOT APPEARING ON PAGE WHEN MAIN NAV STYLED
 ////////////////// */
 
+.external-references {
+  margin: 6rem auto;
+  border: solid black 2px;
+  width: 90%;
+  height: 30vw;
+  position: relative;
+}
+
+.image-container {
+  position: absolute;
+  left: 0;
+  top: 1.5%;
+  width: 55%;
+  max-height: 100%;
+  margin-right: 3rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.external-link {
+  color: white;
+  background: #777;
+  display: block;
+  width: 40%;
+  height: 40%;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+}
+
+.external-link__2 {
+  bottom: 0;
+}
+
+/*
+.external-link:first-of-type {
+  margin-bottom: 5rem;
+}
+*/
+
+/* //////////////////
+MAIN BODY
+////////////////// */
+
+main {
+  clear: left;
+  margin-top: 300px;
+}
+
 /* //////////////////
 FOOTER
 ////////////////// */
 
 .main-footer {
-  background: #919191;
+  background: #777;
   width: 100%;
   padding: 1rem;
+  color: white;
 }
 
 .copyright {
