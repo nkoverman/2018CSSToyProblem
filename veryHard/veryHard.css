@@ -81,14 +81,14 @@ ASIDE
 .external-references {
   margin: 6rem auto 0 auto;
   width: 90%;
-  height: 30vw;
+  height: 35vw;
   position: relative;
 }
 
 .image-container {
   position: absolute;
   left: 0;
-  width: 50%;
+  width: 60%;
   max-height: 100%;
   margin-right: 3rem;
   margin-top: auto;
@@ -105,7 +105,7 @@ img {
   background: #777;
   display: block;
   width: 35%;
-  padding: 1%;
+  padding: 1rem;
   position: absolute;
   right: 0;
   text-align: center;
