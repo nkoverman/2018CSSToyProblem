@@ -4,64 +4,119 @@
   <head>
     <meta charset="utf-8">
     <title>Very Hard CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Cinzel|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="veryHard.css">
   </head>
   
   <body>
-    <header class="main-nav">
-      <nav>
-        <div class="logo">LOGO</div>
-        <ol class="main-nav__list">
-          <li class="main-nav__link">LINK-1</li>
-          <li class="main-nav__link">LINK-2</li>
-          <li class="main-nav__link">LINK-3</li>
-          <li class="main-nav__link">LINK-4</li>
-          <li class="main-nav__link">LINK-5</li>
-        </ol>
-      </nav>
-    </header>
-    
-    <aside class="external-references">
-        <div class="image-container">
-          <a title="By Aloahwild (Family photo from early part of 1900s, scan) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:AHB_with_tank.jpg"><img width="512" alt="AHB with tank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AHB_with_tank.jpg/512px-AHB_with_tank.jpg"></a>
-        </div>
-        <div class="external-link external-link__1">
-          <a href="#">SMALL BOX #1</a>
-        </div>
-        <div class="external-link external-link__2">
-          <a href="#">SMALL BOX #2</a>
-        </div>
-    </aside>
-    
-    <main>
-      <h1 class="title">HEADER STATEMENT</h1>
-      <section class="cards">
-        <article>CARD #1</article>
-        <article>CARD #2</article>
-        <article>CARD #3</article>
-      </section>
-      <section class="articles">
-        <nav class="article-nav">
-          <ol class="article-nav__tabs">
-            <li class="article-nav__tab">TAB 1</li>
-            <li class="article-nav__tab">TAB 1</li>
-            <li class="article-nav__tab">TAB 1</li>
-            <li class="article-nav__tab">TAB 1</li>
+    <div class="body-contianer">
+      <header class="main-nav">
+        <nav>
+          <div class="logo">WWI INVENTIONS</div>
+          <ol class="main-nav__list">
+            <li class="main-nav__link"><a href="veryHard.html">Military</a></li>
+            <li class="main-nav__link"><a href="#">Medical</a></li>
+            <li class="main-nav__link"><a href="#">Transportation</a></li>
+            <li class="main-nav__link"><a href="#">Communication</a></li>
+            <li class="main-nav__link"><a href="#">Other</a></li>
           </ol>
         </nav>
-        <div class="article-content">
-          <article class="article-content__1">PARAGRAPHS 1</article>
-          <article class="article-content__1">PARAGRAPHS 1</article>
-          <article class="article-content__1">PARAGRAPHS 1</article>
-          <article class="article-content__1">PARAGRAPHS 1</article>
+      </header>
+
+      <aside class="external-references">
+        <div class="image-container">
+          <a title="See page for author [CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:World_War_One;_Aldershot_photograph;_ambulance_Wellcome_L0009277.jpg"><img width="512" alt="World War One; Aldershot photograph; ambulance Wellcome L0009277" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/World_War_One%3B_Aldershot_photograph%3B_ambulance_Wellcome_L0009277.jpg/512px-World_War_One%3B_Aldershot_photograph%3B_ambulance_Wellcome_L0009277.jpg"></a>
         </div>
-      </section>
+        <div class="external-link external-link__1">
+          <a href="https://www.archives.gov/topics/wwi/medicine"><p>Further Reading:</p><p>US National Archives - "Medicine in the War"</p></a>
+        </div>
+        <div class="external-link external-link__2">
+          <a href="https://www.theatlantic.com/health/archive/2017/02/world-war-i-medicine/517656/"><p>Further Reading:</p><p>The Atlantic - "How World War I Revolutionized Medicine"</p></a>
+        </div>
+      </aside>
+
+      <main>
+        <h1 class="title">Medical Advances of World War I</h1>
+        <section class="cards">
+          <article>
+            <a title="By G. P. Putnam&#039;s Sons (Reproduced by permission of X-Rays Ltd.) [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:X-ray_shrapnel.jpg"><img width="256" alt="X-ray shrapnel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/X-ray_shrapnel.jpg/256px-X-ray_shrapnel.jpg"></a>
+          </article>
+          <article><a title="See page for author [CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Blood_transfusion_apparatus,_United_Kingdom_Wellcome_L0058180.jpg"><img width="256" alt="Blood transfusion apparatus, United Kingdom Wellcome L0058180" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Blood_transfusion_apparatus%2C_United_Kingdom_Wellcome_L0058180.jpg/256px-Blood_transfusion_apparatus%2C_United_Kingdom_Wellcome_L0058180.jpg"></a></article>
+          <article>
+            <a title="See page for author, believed to be public domain, via U.S. National Library of Medicine" href="http://resource.nlm.nih.gov/101704193"><img src="nurse.jpg"></a>
+          </article>
+        </section>
+        <section class="articles">
+          <nav class="articles-nav">
+            <ol class="articles-nav__tabs">
+              <li class="articles-nav__tab" id="1">Germ Theory</li>
+              <li class="articles-nav__tab" id="2">Blood Transfusions</li>
+              <li class="articles-nav__tab" id="3">Prosthesis</li>
+              <li class="articles-nav__tab" id="4">Triage</li>
+            </ol>
+          </nav>
+          <div class="articles-content">
+            <article class="articles-content__1">
+              <p>Germ theory, or the notion that diseases are caused and spread by microorganisms like bacteria and viruses, is still a relatively new idea.  In the nineteenth century doctors still relied on disease theories developed in ancient and medieval times to understand and treat diseases, which led to a wide variety of treatments ranging from the effective to the bizarre.  Some doctors held on the the ancient Greek belif in humorism, or the idea that disease was caused by an imbalance of bodily fluids.  Others supported the medieval miasma theory, which held that disease was caused by an invisible, poisonous vapor called miasma that arouse from decaying organic matter.  In the American Civil War, doctors' misunderstanding of disease led to the spread of gangrene, which in turn led to mass amputations.  Doctors would remain in surgery for long periods of time without washing their hands or instruments, causing one patients' gangrenous blood to infect the healthy tissue of the next.</p>
+
+              <p>After the American Civil War, however, germ theory began to gain credibility with the work of scientists like Louis Pasteur and Robert Koch.  By the turn of the twentieth century it revolutionized the way field hospitals were run in the First World War. Speed and sanitization became the focus of preventing infection. A new system of medical transportation, which utilized motorized ambulances and trains in addition to decidated stretcher-bearers, meant that patients could reach a hospital in less than 12 hours rather than waiting days for surgery as they had in the Civil War.  Hospitals, hands, and surgical instruments were rigourously sterilized before surgery and antiseptics were invented to kill bacertia growing on wounds.  While the trenches of WWI were breeding ground for disease, the development of germ theory gave soldiers and doctors a chance to prevent infection and avoid the disfigurment of amputation.</p>
+            </article>
+            <article class="articles-content__2">
+              <p>The massive casualties of the First World War spurred rapid developments in blood transfusion techniques, ultimately leading to the development of blood banks and blood delivery systems which continue to save lives into the current day.  While blood transfusions, or the introduction of healthy blood directly into a person's vein, was first attempted as far back as the 17th century, before World War I it was seen as too dangerous to attempt and rarely used to save lives. Early in the war, blood was administered through complicated patient-to-patient techniques in which blood flowed directly from a healthy patient's arm into the injured patient's vein.  When the United States entered the war in 1917, American Captain Oswald H. Robertson argued that blood transfusions could save more lives if usable blood was stored in advance rather than being collected as patients arrived.  Utilizing "syringe-cannola" (or syringe-tube) techniques developed in 1916 by Major L.B. Robertson of the Canadian Army Medical Corp, which allowed healthy patients to donate blood that would later be delived to injured soldiers, Capt. Oswald Robertson created the first blood banks in the hospitals of the Western Front.  Anti-coagulants like sodium citrate were introduced to donated blood so that the blood would remain usable for up to 28 days, and transfusion techniques were simplified so that blood could be administered on the battlefield to keep wounded soldiers from going into shock.</p>
+            </article>
+            <article class="articles-content__3">
+              <p>“[N]ext to the loss of life, the sacrifice of a limb is the greatest sacrifice that a man can make for his country.” -London Times, 1920</p>
+
+              <p>The destructive power of machine guns and large-caliber explosives meant that the soldiers of World War I faced physical disfigurement on a scale never before seen.  In Great Britain alone almost 240,000 soldiers lost limbs on the battlefield or in military hospitals.  As one American doctor put it, "Every fracture in this war is a huge open wound with a not merely broken but shattered bone at the bottom of it." (Source) In situations like this, limbs could not be saved--they could only be amputated and replaced.  Soliders lost not only their limbs, but their livelihoods when their injuries prevented them from working or fully enjoying life as they had before the war. Pre-war prothetic limbs were heavy and awkward. Wooden legs, for example, were uncomfortable and loud...and often abandoned for crutches if veterens found them too unwieldy. By the end of the war, however, hundreds of new patents for prosthetic limbs poured in to try to help veterens return to full form and function.  Materials shifted from wood to light-weight metals and plastics, and function often took precedance over life-like form to allow amputees to return to work (see hook hands, above).</p>
+            </article>
+            <article class="articles-content__4">
+              <p>Triage, or the system of prioritizing patient care by need, became standard practice in World War I.  With a heavy volume of casualties and limited resources, doctors separated patients into three groups: 1) Those with minor injuries who would be treated and sent back to the front, 2) Those who may live with immediate medical treatment, and 3) Those who would likely die even with treatment and were therefore not treated.</p>
+            </article>
+          </div>
+        </section>
+      </main>
       <footer class="main-footer">
         <div class="copyright">&copy; Nathan Koverman 2018</div>
-        <div class="contact">
-          <a href="https://github.com/nkoverman">GITHUB LINK</a>
+        <div class="contacts">
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/nathankoverman">LinkedIn</a>
+          </div>
+          <div class="github">
+            <a href="https://github.com/nkoverman">GitHub</a>
+          </div>
         </div>
       </footer>
-    </main>
+    </div>
   </body>
+  
+  <script>
+  window.onload = function() {
+    document.querySelector('.articles-nav__tabs').addEventListener('click', function(event) {
+      var actives = document.querySelectorAll('.articles-nav__tab');
+      actives.forEach(function(el) {
+        if (el.classList.contains('active')) {
+          el.classList.remove('active');
+        }
+      });
+      
+      for (var i = 1; i < 5; i++) {
+        document.querySelector(`.articles-content__${i}`).style.display = 'none';
+      }
+        
+      console.log(`.articles-content__${event.target.id}`);
+      document.querySelector(`.articles-content__${event.target.id}`).style.display = 'inline';
+      event.target.classList.add('active');
+    });
+    
+    document.querySelector('.main-nav__list').addEventListener('click', function(event) {
+      var actives = document.querySelectorAll('.main-nav__link');
+      actives.forEach(function(el) {
+        if (el.classList.contains('active')) {
+          el.classList.remove('active');
+        }
+      });
+      event.target.classList.add('active');
+    });
+  }
+  </script>
 </html>
