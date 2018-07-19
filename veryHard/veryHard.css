@@ -66,8 +66,8 @@ MAIN NAVIGATION
 }
 
 .logo:hover,
-.main-nav__link:hover,
-.main-nav__link:active {
+.main-nav__link a:hover,
+.main-nav__link a:active {
   color: white;
   font-weight: bold;
   border-bottom: 5px solid white;

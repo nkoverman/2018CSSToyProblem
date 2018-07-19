@@ -14,8 +14,8 @@
         <nav>
           <div class="logo">WWI INVENTIONS</div>
           <ol class="main-nav__list">
-            <li class="main-nav__link"><a href="veryHard.html">Military</a></li>
-            <li class="main-nav__link"><a href="#">Medical</a></li>
+            <li class="main-nav__link"><a href="#">Military</a></li>
+            <li class="main-nav__link"><a href="veryHard.html">Medical</a></li>
             <li class="main-nav__link"><a href="#">Transportation</a></li>
             <li class="main-nav__link"><a href="#">Communication</a></li>
             <li class="main-nav__link"><a href="#">Other</a></li>
@@ -102,19 +102,8 @@
       for (var i = 1; i < 5; i++) {
         document.querySelector(`.articles-content__${i}`).style.display = 'none';
       }
-        
-      console.log(`.articles-content__${event.target.id}`);
+      
       document.querySelector(`.articles-content__${event.target.id}`).style.display = 'inline';
-      event.target.classList.add('active');
-    });
-    
-    document.querySelector('.main-nav__list').addEventListener('click', function(event) {
-      var actives = document.querySelectorAll('.main-nav__link');
-      actives.forEach(function(el) {
-        if (el.classList.contains('active')) {
-          el.classList.remove('active');
-        }
-      });
       event.target.classList.add('active');
     });
   }
